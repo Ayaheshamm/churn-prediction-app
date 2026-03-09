@@ -9,8 +9,8 @@ Original file is located at
 
 # IMPORTANT: SOME KAGGLE DATA SOURCES ARE PRIVATE
 # RUN THIS CELL IN ORDER TO IMPORT YOUR KAGGLE DATA SOURCES.
-import pandas as pd
-df = pd.read_excel("churn_dataset.xlsx")
+
+
 
 # IMPORTANT: RUN THIS CELL IN ORDER TO IMPORT YOUR KAGGLE DATA SOURCES,
 # THEN FEEL FREE TO DELETE THIS CELL.
@@ -18,9 +18,6 @@ df = pd.read_excel("churn_dataset.xlsx")
 # ENVIRONMENT SO THERE MAY BE MISSING LIBRARIES USED BY YOUR
 # NOTEBOOK.
 
-
-
-print('Data source import complete.')
 
 # %% [code] {"execution":{"iopub.status.busy":"2026-03-08T20:17:07.221688Z","iopub.execute_input":"2026-03-08T20:17:07.222005Z","iopub.status.idle":"2026-03-08T20:17:07.227707Z","shell.execute_reply.started":"2026-03-08T20:17:07.221979Z","shell.execute_reply":"2026-03-08T20:17:07.226531Z"}}
 import numpy as np
@@ -33,7 +30,7 @@ from sklearn.metrics import accuracy_score
 
 
 # %% [code] {"execution":{"iopub.status.busy":"2026-03-08T20:45:30.894315Z","iopub.execute_input":"2026-03-08T20:45:30.894634Z","iopub.status.idle":"2026-03-08T20:45:30.912486Z","shell.execute_reply.started":"2026-03-08T20:45:30.894613Z","shell.execute_reply":"2026-03-08T20:45:30.911551Z"}}
-df = pd.read_excel('/kaggle/input/datasets/ayahesham2002/churndata/churn_dataset.xlsx')
+df = pd.read_excel("churn_dataset.xlsx")
 
 # %% [code] {"execution":{"iopub.status.busy":"2026-03-08T20:47:31.803790Z","iopub.execute_input":"2026-03-08T20:47:31.804095Z","iopub.status.idle":"2026-03-08T20:47:31.813062Z","shell.execute_reply.started":"2026-03-08T20:47:31.804074Z","shell.execute_reply":"2026-03-08T20:47:31.812045Z"},"jupyter":{"outputs_hidden":true}}
 df

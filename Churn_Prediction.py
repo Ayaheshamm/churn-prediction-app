@@ -26,7 +26,7 @@ y_pred = model.predict(x_test)
 acc = accuracy_score(y_test, y_pred)
 
 # Streamlit App
-st.title("Customer Churn Prediction")
+st.title("Guess The Churn 🤔")
 st.write(f"Model Accuracy: **{acc:.2%}**")
 
 st.header("Predict Churn for a New Customer")

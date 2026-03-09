@@ -9,8 +9,8 @@ Original file is located at
 
 # IMPORTANT: SOME KAGGLE DATA SOURCES ARE PRIVATE
 # RUN THIS CELL IN ORDER TO IMPORT YOUR KAGGLE DATA SOURCES.
-import kagglehub
-kagglehub.login()
+import pandas as pd
+df = pd.read_excel("churn_dataset.xlsx")
 
 # IMPORTANT: RUN THIS CELL IN ORDER TO IMPORT YOUR KAGGLE DATA SOURCES,
 # THEN FEEL FREE TO DELETE THIS CELL.
@@ -18,7 +18,7 @@ kagglehub.login()
 # ENVIRONMENT SO THERE MAY BE MISSING LIBRARIES USED BY YOUR
 # NOTEBOOK.
 
-ayahesham2002_churndata_path = kagglehub.dataset_download('ayahesham2002/churndata')
+
 
 print('Data source import complete.')
 
